@@ -5,7 +5,7 @@
   --primary-font: 'Roboto';
   --secondary-font: 'Raleway';
 }
-
+/* Глобальные стили */
 body {
   font-family: var(--primary-font), sans-serif;
   color: var(--text-primary);
@@ -19,7 +19,7 @@ ul {
 a {
   text-decoration: none;
 }
-
+/* Хедер */
 .logo {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -63,7 +63,7 @@ a {
 .contact-item-link:focus {
   color: var(--theme-color);
 }
-
+/* Герой */
 .hero-box {
   background-color: #2f303a;
 }
@@ -91,7 +91,7 @@ a {
   background-color: var(--theme-color);
   color: #fff;
 }
-
+/* Особенности */
 .feature-item-title {
   font-weight: 700;
   font-size: 14px;
@@ -106,14 +106,14 @@ a {
   letter-spacing: 0.03em;
   color: var(--text-secondary);
 }
-
+/* Направления деятельности */
 .activities-box-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
-
+/* Наша команда */
 .team-box {
   background-color: #f5f4fa;
 }
@@ -138,7 +138,7 @@ a {
   letter-spacing: 0.03em;
   color: var(--text-secondary);
 }
-
+/* Футер */
 .footer-box {
   background-color: #2f303a;
 }
@@ -170,7 +170,9 @@ address {
   color: var(--theme-color);
 }
 
-/* Портфолио */
+/* 2-Портфолио-2 */
+
+/* Фильтры */
 
 .filter-item-botton {
   font-weight: 500;
@@ -187,6 +189,7 @@ address {
   cursor: pointer;
 }
 
+/* Проекты */
 .project-item-name {
   font-weight: 700;
   font-size: 18px;
