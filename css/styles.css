@@ -82,13 +82,14 @@ a {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  background-color: #f5f4fa;
+  background-color: #2196f3;
+  color: #fff;
   cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: var(--theme-color);
+  background-color: #188ce8;
   color: #fff;
 }
 /* Особенности */
