@@ -75,14 +75,14 @@ a {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  color: #fff;
-  background-color: var(--theme-color);
+  background-color: #f5f4fa;
   cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  color: var(--theme-color);
+  background-color: var(--theme-color);
+  color: #fff;
 }
 
 .feature-item-title {
@@ -90,6 +90,7 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .feature-item-desc {
@@ -169,6 +170,7 @@ address {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  background-color: #f5f4fa;
 }
 
 .filter-item-botton:hover,
